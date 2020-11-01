@@ -1,0 +1,92 @@
+body{
+    background: #FC3;
+    color : #333;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: Helvetica , Arial ,sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+p{
+    font-size :18px;
+}
+strong{
+    font-weight:normal;
+    font-style:italic;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+/* Style for Ids and Classes.html*/
+#idClassPage{
+    background: #FFF;
+    padding: 10px;
+   
+}
+#main-tittle{
+    color:#FC3;
+    font-size:38px;
+    background:#353535;
+    padding:10px;
+    margin:20px;
+}
+.section-header{
+    color:olive;
+    border:solid 1px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight:normal;
+}
+/*styles for descendant html*/
+.primary-box{
+    background:#FFF;
+    border:solid 5px #333;
+    padding:20px;
+    margin : 10px;
+}
+.secondary-box{
+    background:#333;
+    padding:10px;
+    color : #FFF;
+    margin: 20px;
+}
+.primary-box h2{
+    font-family: Arial,sans-serif;
+    padding-bottom: 20px;
+    border-bottom: solid 2px red;
+
+}
+.primary-box h2 span{
+    border-top: solid 2px blue;
+    border-bottom:solid 2px blue;
+    padding bottom:10px;
+}
+.secondary-box .secondary-title{
+    font-family:cursive;
+}
+.secondary-box p em{
+    color:pink;
+}
+.secondary-box>em{ /*child selector*/
+    font-size:20px;
+}
+/*grouping selector*/
+#main-container{
+    width:450px;
+    margin:0 px auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Helvetica,Arial,sans-serif;
+    padding: :0 0 10px;
+    text-align: center;
+    border-bottom: solid 2px red;
+}
+.primary-box, .secondary-box{
+    margin:30px 10px;
+}

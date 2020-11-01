@@ -1,0 +1,287 @@
+
+/*GENERAL STYLES*/
+body{
+    font-family: Lato,sans-serif;
+    margin: 0;
+    background: #659DBD;
+    line-height: 1.4;
+}
+
+/*helper classes*/
+.container{
+    width:770px;
+    margin:0 auto;
+}
+.row{
+    margin-left:70px;
+}
+.row:after{
+    content:'';
+    display:block;
+    clear:both;
+   
+    
+    
+}
+.row .col-4{
+    float:left;
+    padding:3px;
+    width:33.33%
+   
+    box-sizing:border-box;
+}
+.row .col-12{
+    float:left;
+    width:100%;
+    padding:15px;
+    box-sizing: border-box;
+}
+.row .col-6{
+    float:left;
+    width:50%;
+        padding:15px;
+    box-sizing:border-box;
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.text-centre{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.p-0{
+    padding:0;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding:20px;
+}
+.p-30{
+    padding: 30px;
+}
+.p-40{
+    padding: 40px;
+}
+.p-t-10{
+    padding-top: 10px;
+}
+.p-b-10{
+    padding-bottom: 10px;
+}
+.m-0{
+    margin:0;
+}
+.m-10{
+    margin:10px;
+}
+.m-20{
+    margin:20px;
+}
+.m-30{
+    margin:30px;
+}
+.m-40{
+    margin:40px;
+}
+/*navar*/
+.navbar{
+    width: 100%;
+    height:45px;
+    line-height:45px;
+    
+}
+.navbar-fixed{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+.navbar-dark{
+    background:#000;
+    color:#FFF;
+    
+}
+.navbar-blue{
+    background:#0077B6;
+}
+.navbar-lavender{
+    background:#6c5c74 ;
+}
+.menu, .sub-menu{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.sub-menu{
+    display: none;
+}
+.menu .menu-item {
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    
+    
+}
+.menu .menu-item a{
+    display:inline-block;
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.has.sub-menu {
+    position: relative;
+   
+}
+.has.sub-menu:hover .sub-menu{
+    display:block;
+}
+.has.sub-menu .sub-menu-list{
+    position: absolute;
+    left:0;
+    background:#6c5c74;
+    width:160px;
+}
+
+.sub-menu-list .sub-menu .menu-item{
+    text-transform: :capitalize;
+    display:block;
+}
+.sub-menu-list .sub-menu .menu-item a{
+    display: block;
+}
+
+
+.navbar-lavender .menu .menu-item a:link,
+.navbar-lavender .menu .menu-item a:visited{
+    color:#FFF;
+    padding:0;
+    
+}
+.navbar-dark .menu .menu-item a:hover{
+    background: #CCC;
+    
+}
+.navbar-blue .menu .menu-item a:hover{
+    background:#FDFCDC;
+}
+.navbar-lavender .menu .menu-item a:hover,
+.navbar-lavender .menu .menu-item.has.sub-menu:hover>a{
+    background: #FED9B7;
+    color:#333;
+}
+some-one:hover make-some-other{
+    visibile;
+}
+.sub-menu-list .sub-menu .menu-item a:link,
+.sub-menu-list .sub-menu .menu-item a:visited{
+    color:#333;
+}
+.search-box{
+    
+    padding:0 20px;
+}
+.search-box:hover{
+    background: red;
+    cursor:pointer;
+}
+/*slider*/
+.slider{
+    width:100%;
+}
+.slider-list{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.slider-item{
+    position:relative;
+}
+.slider .slider-image{
+    width: 100%;
+}
+.slider-item .image-caption{
+    position:absolute;
+    bottom:50px;
+    color:#FFF;
+    width:100%;
+    text-align: center;
+}
+.image-caption .caption-title{
+    font-size:30px;
+}
+/**********SECTION CLASSES********/
+.section{
+    padding: 85px 0;
+}
+.section-white{
+    background:#FFF;
+    color:#333;
+}
+.section-black{
+    background: #000;
+    color:#FFF;
+    width:100%;
+     text-align: center;
+    
+}
+.section .section-heading h2{
+    text-transform:uppercase;
+    font-weight: 400;
+    font-size:2em;
+    letter-spacing: 4px;
+    margin:0 0 10px;
+    
+    
+    
+}
+.section .section-heading p{
+    color:dimgray;
+    font-weight: 300;
+    font-style:italic;
+    font-size:18px;
+    margin:0;
+}
+.section-dark .section-heading p{
+    color:dimgray;
+}
+.section-dark .section-heading p{
+    color:#AAA;
+}
+/**BAND-SECTION**/
+.photographer{
+    text-align: center;
+   
+}
+ .photographer img{
+    width:200px;
+    padding-right: 20px;
+
+}
+.tours{
+    background: #FFF;
+    color:#333;
+}
+.tour-list{
+    list-style: none;
+    color:#797775;
+}
+.tour-item{
+    padding: 10px 15px;
+    border-bottom: solid 1px #DDD;
+}
+.tour-item:last-child{
+ border:none;       
+    }
+.tour-item:not(.last-item){
+    border-bottom: solid 1px #DDD;
+}

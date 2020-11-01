@@ -1,0 +1,12 @@
+#box{
+    background: red;
+    height:200px;
+    width:200px;
+    margin: 40px auto;
+    color:white;
+    padding:50px;
+    box-sizing:border-box;
+    /* border-radius :20px;*/
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

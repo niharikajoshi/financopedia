@@ -1,0 +1,24 @@
+body{
+    background: #FC3;
+    color : #333;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: Helvetica , Arial ,sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+p{
+    font-size :18px;
+}
+strong{
+    font-weight:normal;
+    font-style:italic;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
